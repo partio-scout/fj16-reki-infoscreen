@@ -1,0 +1,59 @@
+@font-face {
+  font-family: exo2;
+  src: url(exo2-bold.otf);
+}
+
+body {
+  background-color: rgb(54,169,225); /* Roihun sininen */
+  color: white;
+  font-family: exo2;
+  text-align: center;
+}
+
+.wrapper {
+  height: 90vh;
+  text-align: center;
+}
+
+.wrapper2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 98%;
+  text-align: center;
+}
+
+.prefix, .error {
+  margin-top: 3vh;
+  font-size: 15vh;
+}
+
+.value {
+  font-size:  30vh;
+  margin-bottom: 3vh;
+}
+
+.suffix {
+  font-size:  8vh;
+}
+.suffix2 {
+  font-size:  6vh;
+}
+
+.subcamps {
+  text-align: center;
+  margin-top: 6vh;
+}
+
+.subcamp {
+  display: inline-block;
+  margin: 0 3vh;
+}
+
+.subcamp .title {
+  font-size: 5vh;
+}
+
+.subcamp .count {
+  font-size: 8vh;
+}

@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='/style.css')
+    title='Vahvuus'
+    script='setTimeout(function() { window.location.reload(); }, 2 * 60 * 1000);'
+  body
+    #wrapper
+      #wrapper2
+        .prefix='Leirissä nyt'
+        .value=allCamp.count
+        .suffix='osallistujaa paikalla!'
+        .subcamps
+          each subcamp in subcamps
+            .subcamp
+              .title=subcamp.subcamp
+              .count=subcamp.count
